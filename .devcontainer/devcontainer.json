@@ -1,0 +1,19 @@
+{
+  "name": "Entorno Desarrollo Autorizacion Pagos",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "payment-app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "42crunch.vscode-openapi"
+      ]
+    }
+  }
+}
