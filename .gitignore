@@ -1,0 +1,23 @@
+# Dependencias y paquetes
+node_modules/
+.pnpm-store/
+
+# Salidas de compilación
+build/
+dist/
+target/
+
+# Archivos de entorno y credenciales
+.env
+.env.local
+*.pem
+*.key
+
+# Archivos de editor y sistema operativo
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.log
+.DS_Store
+Thumbs.db
